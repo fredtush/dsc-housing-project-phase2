@@ -1,6 +1,6 @@
-# Phase 2 Project
+# Phase 2 Project: KING'S COUNTY HOUSING PROJECT
 
-Another module down--you're almost half way there!
+**Author**: [Fred Mutuma](mailto:fred.mutuma@school.moringaschool.com)
 
 All that remains in Phase 2 is to put our newfound data science skills to use with a large project! This project should take 20 to 30 hours to complete.
 
@@ -46,7 +46,7 @@ I need to steply remove and polish most of the columns which is not contribute t
 ## remove the outlier data 
  I then drawed the distribution of each of the columns which had more than 10 unique value to check if there is any outlier values. There are multipal columns contain some outlier data. I then collected all the columns and remove them 
  
- ![fig2](dsc-housing-project-phase2/images/fig2.png)
+ ![fig2](./images/fig2.png)
  
  After remove the unnecessary data, in order to check the relationship between the price with most of the columns with few unique numbers, I plot their relations in seperate figures.
  
@@ -71,13 +71,13 @@ The Coefficient of all the features show how each of the feature affect the hous
 # Validation
  For the validation, I first plot the scatter plot of Predicted Price vs the Actual Price. 
  
- ![fig7.png](dsc-housing-project-phase2/images/fig5.png)
+ ![fig7.png](./images/fig5.png)
  
 I then tested the residuals by qqplot and residuals vs predicted values.
 
-![fig7.png](dsc-housing-project-phase2/images/fig6.png)
+![fig7.png](./images/fig6.png)
 
-![fig7.png](dsc-housing-project-phase2/images/fig7.png)
+![fig7.png](./images/fig7.png)
 
 
 The validation of prediction and real data shows that the prediction price for most house whose price is low (20% - 40% of the max price) is close to the real price. The qqplot shows that the house price is well predicted when the house price is not very high. However, for the high value price house, the prediction is not very acturate. There is a lot of shift of prediction price when the house value increase especialy when house price is more than 200000.
